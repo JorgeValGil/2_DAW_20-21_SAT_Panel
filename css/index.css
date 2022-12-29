@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Skywingw;
+  src: url("../fonts/Skywingw.ttf") format("opentype");
+}
+@font-face {
+  font-family: Futura;
+  src: url("../fonts/FuturaHandwritten.ttf") format("opentype");
+}
+@font-face {
+  font-family: Cutie_Shark;
+  src: url("../fonts/Cutie_Shark.ttf") format("opentype");
+}
+@font-face {
+  font-family: KGPrimaryItalics;
+  src: url("../fonts/KGPrimaryItalics.ttf") format("opentype");
+}
+@font-face {
+  font-family: SVBasicManual;
+  src: url("../fonts/SVBasicManual.ttf") format("opentype");
+}
+@font-face {
+  font-family: Letters;
+  src: url("../fonts/Letters_for_Learners.ttf") format("opentype");
+}
+.panel_superior {
+  color: #ff8b00;
+  font-weight: bold;
+}
+.user_rol {
+  font-family: Letters;
+  font-size: 18pt;
+  margin-top: 1em;
+}
+.logout {
+  font-size: 18pt;
+  font-family: Letters;
+  font-weight: bold;
+}
+.logout a {
+  color: #ff8b00;
+}
+.satpanel {
+  font-family: Skywingw;
+  font-size: 28pt;
+  color: #ff8b00;
+  margin-bottom: 0;
+}
+
+.columna {
+  border-left: 1px solid black;
+}
+.etapa {
+  font-family: KGPrimaryItalics;
+  text-align: center;
+  font-size: 18pt;
+}
+.articulo {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+  border: 1px solid black;
+}
+.id_articulo {
+  font-family: Cutie_Shark;
+  font-size: 18pt;
+}
+
+.nombre_articulo {
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.new {
+  color: #ff8b00;
+  font-family: Letters;
+  font-size: 18pt;
+  font-weight: bold;
+}
+.new a {
+  color: #ff8b00;
+}
+
+.link_articulo {
+  color: black;
+}
+.id_title {
+  font-family: SVBasicManual;
+  font-size: 18pt;
+  margin-top: 1em;
+}
+.aviso {
+  text-align: center;
+  color: #ff8b00;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.lista_etapas {
+  font-size: 18pt;
+  font-family: Letters;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.lista_etapas a {
+  color: #ff8b00;
+}
+
+.imprimir button {
+  font-size: 18pt;
+  font-family: Letters;
+  font-weight: bold;
+  color: #ff8b00;
+}
+
+.hora {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.modificaciones {
+  text-align: center;
+  margin: auto;
+}
+
+.modificaciones td,
+.modificaciones th {
+  padding: 1rem;
+}
+
+.modificaciones,
+.modificaciones th,
+.modificaciones td {
+  border: 1px solid black;
+}
+
+.lista_articulos_find {
+  text-align: center;
+}
+
+.lista_articulos_find li {
+  display: block;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.error{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,18 @@
+<configuracion>
+    <usuario>
+        <servidor>localhost</servidor>
+        <bd>teis2_satpanel</bd>
+        <nombre>teis2_sat_conex</nombre>
+        <password>abc123.</password>
+        <rol>conexion</rol>
+    </usuario>
+    
+    <usuario>
+        <servidor>localhost</servidor>
+        <bd>teis2_satpanel</bd>
+        <nombre>teis2_sat_admin</nombre>
+        <password>abc123.</password>
+        <rol>admin</rol>
+    </usuario>
+    
+</configuracion>

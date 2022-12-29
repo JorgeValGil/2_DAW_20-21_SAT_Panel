@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Comic;
+  src: url("../fonts/Comic_Book.otf") format("opentype");
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.user_card {
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #ff8b00;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: white;
+  padding: 10px;
+  text-align: center;
+}
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #ff8b00;
+}
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #d74a20 !important;
+  color: white !important;
+  font-family: Comic;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #d74a20 !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.title {
+  text-align: center;
+  font-family: Comic;
+  font-size: 16pt;
+}
+.info{
+  font-family: Comic;
+  text-align: center;
+}
+.redirect{
+  font-family: Comic;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 24pt;
+}
+
+.links{
+    font-weight: bold;
+}
+.links a{
+    color: white;
+}
